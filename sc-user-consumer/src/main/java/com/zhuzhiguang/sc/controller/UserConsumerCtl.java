@@ -34,6 +34,10 @@ public class UserConsumerCtl {
 
     }
 
+    /**
+     * 使用feign 方式
+      * @return
+     */
     @RequestMapping("mylistf")
     public List<String> list(){
 

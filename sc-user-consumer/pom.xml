@@ -11,22 +11,24 @@
 
     <artifactId>sc-user-consumer</artifactId>
     <dependencies>
-        <!-- Ribbon依赖 -->
+
+        <!-- Ribbon依赖  进行负载均衡-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
 
+        <!--作用是连接注册证中心-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
+        <!--以接口封装的形式调用服务-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
-
     </dependencies>
 
 
