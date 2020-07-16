@@ -1,0 +1,6 @@
+/sc-eureka-server/target/
+/sc-user-consumer/target/
+/sc-user-provider1/target/
+/sc-user-provider2/target/
+/sc-eure-ribbon-parent.iml
+/.idea/
